@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# System files
+AppData/
+.Xilinx/
+.cache/
+.cursor/
+.gitconfig
+.lesshst
+.node_repl_history
+.packettracer
+.redhat/
+.rest-client/
+.sonarlint/
+.vscode/
+
+# Windows system files
+NTUSER.DAT*
+ntuser.ini
+ntuser.dat.LOG*
+
+# Personal directories
+Contacts/
+Desktop/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+WPS Cloud Files/
+
+# Application specific
+Cisco Packet Tracer 8.2.1/
+Oracle/
+
+# Dependencies
+node_modules/
+dist/
+build/
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vercel
+.vercel
+.next
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
