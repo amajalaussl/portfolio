@@ -89,14 +89,10 @@ const Hero: React.FC = () => {
                 variant="outline"
                 size="lg"
                 icon={<Download size={18} />}
-                onClick={() => {
-                  const link = document.createElement('a');
-                  link.href = '/resume.pdf';
-                  link.download = 'Amajala_Uma_Sai_Sree_Lakshmi_Resume.pdf';
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}
+                as="a"
+                href="/portfolio/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Download Resume
               </Button>
